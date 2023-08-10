@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     public Boolean validarCampos(String alcoolPreco, String gasolinaPreco){
         if (alcoolPreco == null || alcoolPreco.equals("")){
             return false;
-        }else if (gasolinaPreco == null || gasolinaPreco.equals("")){
+        }else if (gasolinaPrec == null || gasolinaPreco.equals("")){
             return false;
         }
         return true;
